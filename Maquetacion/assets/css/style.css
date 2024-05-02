@@ -89,6 +89,7 @@ body{
     display: inline-block;
     position: relative;
     width: 20rem;
+    
     margin-top: 7rem; 
 
     z-index: 1;
@@ -117,10 +118,11 @@ body{
 
 .userInfo__image{
     width: 100%;
+    
 
     background-color: var(--color-principal);
     border: 3px solid var(--color-principal) ;
-    border-radius: 20rem;
+    border-radius: 30rem;
   
 }
 
