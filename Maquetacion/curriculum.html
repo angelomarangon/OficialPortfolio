@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+    <title>Portafolio - Angelo Marangon</title>
+
+    <!-- Estilos e Iconos -->
+    <link rel="stylesheet" href="../assets-proyecto1/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <!-- Fuente -->
+    <link rel="stylesheet" href="./assets/fonts/poppins/poppins.css">
+    <!-- Estilo principal -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Estilos Scroll -->
+    <link rel="stylesheet" href="./assets/css/scroll.css">
+    <!-- Estilos Responsive -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- Script Menu btn -->
+    <script src="./assets/js/menu.js" defer></script>
+
+</head>
+
+<body>
+    <!-- Layout principal -->
+    <div class="layout">
+        <!-- Barra lateral (info usuario) -->
+        <aside class="layout__aside">
+            <section class="aside__userInfo">
+                <!-- info general usuario -->
+                <div class="userInfo__general">
+                    <div class="userInfo__container-image">
+                        <img src="./assets/img/perfil.jpeg" class="userInfo__image"
+                            alt="Foto de perfil del usuario">
+                    </div>
+
+                    <h2 class="userInfo__name">Angelo Marangon</h2>
+                    <h4 class="userInfo__job">Sviluppatore Frontend</h4>
+                </div>
+                <!-- Menu de navegacion -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <!-- icono de casa -->
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a> 
+                        </li>
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <!-- icono de usuario -->
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Su di Me</span>
+                            </a> 
+                        </li>
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link  menu__link--active">
+                                <!-- icono de graduado -->
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a> 
+                        </li>
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <!-- icono de maleta -->
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a> 
+                        </li>
+                        <!-- <li class="menu__option">
+                            <a href="blog.html" class="menu__link"> -->
+                                <!-- icono de libro -->
+                                <!-- <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a> 
+                        </li> -->
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <!-- icono de sobre -->
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contatto</span>
+                            </a> 
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Frase -->
+                <div class="userInfo__frase">
+                    <p class="userInfo__frase-content">
+                        "I migliori innovatori dell'informatica sono coloro che comprendono la tecnologia, ma anche le necessità umane." <br>Steve Wozniak
+                    </p>
+                </div>
+                <!-- Links a redes sociales -->
+                <div class="userInfo__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="https://github.com/angelomarangon" target="_blank" class="social__link">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://ar.linkedin.com/in/angelomarangon" target="_blank" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://www.instagram.com/angelomarangon_/" target="_blank" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- boton del curriculum -->
+                <div class="userInfo__buttons">
+                    <a href="./assets/cv/CV - Angelo Marangon.pdf" download="CV - Angelo Marangon.pdf" class="userInfo__btn">Scaricare CV</a>
+                </div>
+                <!-- Pie de pagina -->
+                <footer class="userInfo__footer">
+                    &copy; 2024 Angelo Marangon
+                </footer>
+            </section>
+        </aside>
+        <!-- Menu Responsive -->
+        <div id="menu-btn" class="layout__menu-toggle">
+            <i class="fa-solid fa-bars menu-toggle__icon"></i>
+            <i class="fa-solid fa-xmark menu-toggle__icon"></i>
+        </div>
+        <!-- Contenido Principal -->
+        <main class="layout__content">
+            <section class="content__page content__resume">
+                <header class="resume__header">
+                    <h1 class="resume__title">
+                        Curriculum
+                    </h1>
+                </header>
+                <!-- Resumen contenedor -->
+                <div class="resume__container">
+                    <!-- Seccion izquierda -->
+                    <section class="resume__left">
+
+                        <!-- Formacion -->
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Formazione</h2>
+                        </header>
+                        <!-- TimeLine formacion-->
+                        <div class="resume__timeline">
+
+                            <article class="timeline__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2023 - Attuale</h4>
+                                    <span class="timeline__company">Instituto Técnico Superior Teclab</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Técnico Superior en Programación</h3>
+                                    <p class="timeline__description-text">Città: Buenos Aires <br>Paese: Argentina <br>Sito web: <a class="timeline__link" target="_blank" href="https://www.teclab.edu.ar/carrera/tecnico-superior-en-programacion/">Teclab | Instituto Técnico Superior</a></p>
+                                </div>
+
+                            </article>
+
+                            <article class="timeline__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2019 - 2021</h4>
+                                    <span class="timeline__company">UTN San Francisco</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Ingegneria elettronica (Due anni di studio. Carriera incompleta)</h3>
+                                    <p class="timeline__description-text">Città: San Francisco <br>Paese: Argentina <br>Sito web: <a class="timeline__link" target="_blank" href="https://deptoelectronica.sanfrancisco.utn.edu.ar/contenidos/ingenieria-electronica-2">UTN | Universidad Tecnica Nacional</a></p>
+                                </div>
+
+                            </article>
+
+                            <article class="timeline__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2013 - 2018</h4>
+                                    <span class="timeline__company">Conservatorio di Musica “Arturo Berutti”</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Insegnante di musica</h3>
+                                    <p class="timeline__description-text">Città: San Francisco <br>Paese: Argentina <br>Sito web: <a class="timeline__link" target="_blank" href="https://cberutti-cba.infd.edu.ar/sitio/profesorado-de-musica/">Arturo Berutti | Conservatorio di Musica</a></p>
+                                </div>
+
+                            </article>
+
+                            <article class="timeline__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2006 - 2011</h4>
+                                    <span class="timeline__company">IPEM N° 315 "José Hernández"</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Diploma di scuola Superiore</h3>
+                                    <p class="timeline__description-text">Città: San Francisco <br>Paese: Argentina <br>Campi di studio: Scienze sociali e umanistiche</p>
+                                </div>
+
+                            </article>
+                        </div>
+                        <!-- Experiencia -->
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Esperienza Lavorativa</h2>
+                        </header>
+                        <!-- TimeLine experiencia -->
+                        <div class="resumen__timeline">
+
+                            <article class="timeline__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2023 - Attuale</h4>
+                                    <span class="timeline__company">Buona Compagni Gourmet</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Operaio reparto confezzionamento</h3>
+                                    <p class="timeline__description-text">Città: Quinto di Treviso
+                                        <br>Paese: Italia <br><br>Attualmente lavoro presso questa azienda dove produciamo gnocchi a livello industriale per grandi catene di supermercati e aziende alimentari come Conad, Patamore, Eurospin, Master, Panorama, ecc. Mi occupo dell'area di confezionamento, dove sono responsabile della configurazione di diverse macchine (confezionatrici, multitest, rilevatori di metalli e pastorizzatori) per i rispettivi clienti, garantendo che il prodotto sia sempre ottimale.
+                                        Ho imparato molto durante il mio tempo lavorando nel settore, inclusi aspetti legati alla sicurezza alimentare e al rispetto delle normative, nonché al controllo di qualità sia degli alimenti che del processo di confezionamento. Inoltre, ho acquisito competenze nel lavoro di squadra e nell'identificazione e risoluzione efficiente dei problemi per raggiungere gli obiettivi di produzione.</p>
+                                </div>
+
+                            </article>
+
+                            <article class="timeline__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">02/2022 - 08/2022</h4>
+                                    <span class="timeline__company">Scuola elemetare “Domingo Faustino Sarmiento”</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Insegnante di musica</h3>
+                                    <p class="timeline__description-text">Città: Devoto
+                                        <br>Paese: Argentina <br><br>La mia esperienza come insegnante è stata
+                                        molto positiva; poter sviluppare e mettere in pratica tutto ciò che ho imparato
+                                        durante la mia formazione accademica è stato gratificante. Sono stato
+                                        responsabile di 15 classi, con una media di 25 studenti per classe. Alcune
+                                        abilità che posso evidenziare nel mio lavoro come insegnante sono: la capacità
+                                        di adattarmi a diverse circostanze, il controllo del gruppo, la capacità di
+                                        risolvere problemi, il pensiero critico e il lavoro di squadra all'interno
+                                        dell'istituto. Ho sviluppato qualità come la creatività, l'empatia e il sostegno
+                                        quotidiano.</p>
+                                </div>
+
+                            </article>
+
+                            <article class="timeline__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2020 - 2022</h4>
+                                    <span class="timeline__company">Fabbrica “AMR Metalurgica”</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Operaio manovale industriale</h3>
+                                    <p class="timeline__description-text">Città: San Francisco
+                                        <br>Paese: Argentina <br><br>Ho lavorato in una fabbrica come operaio su
+                                        una pressa industriale, svolgendo uno dei vari processi di produzione di uno
+                                        specifico componente di un macchinario. In breve tempo ho appreso il
+                                        funzionamento delle macchine e sono riuscito ad ottimizzare i tempi di
+                                        produzione della mia area. Grazie a questo buon risultato, mi hanno offerto la
+                                        possibilità di cambiare reparto e lavorare su una piegatrice, dove mi sono
+                                        nuovamente adattato facilmente e sono riuscito a ottenere ottimi risultati
+                                        riconosciuti dall'azienda.
+                                        Durante questa esperienza ho sicuramente appreso e migliorato alcune mie soft
+                                        skills: la capacità di adattarmi ai cambiamenti nelle procedure di lavoro,
+                                        all'assegnazione di compiti e alle richieste di produzione, prestare attenzione
+                                        ai dettagli e svolgere i compiti con precisione, rispettare gli standard di
+                                        qualità e verificare l'accuratezza dei prodotti o dei componenti fabbricati.</p>
+                                </div>
+
+                            </article>
+
+                            <article class="timeline__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2010 - 2014</h4>
+                                    <span class="timeline__company">Ristorante "Rene casa de comidas" </span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Camariere e Cuoco</h3>
+                                    <p class="timeline__description-text">Città: San Francisco
+                                        <br>Paese: Argentina <br><br>Ho iniziato come cameriere imparando a
+                                        trattare i clienti nel miglior modo possibile, con un sorriso, una buona
+                                        attenzione e soprattutto rispetto. Successivamente ho avuto l'opportunità di
+                                        lavorare in cucina, dove nonostante la poca esperienza ho appreso alcune nuove
+                                        nozioni. In questa posizione ero responsabile nella preparazione di impasti per pizze,
+                                        pane, ravioli, spaghetti e gnocchi.</p>
+                                </div>
+
+                            </article>
+                        </div>
+                    </section>
+                </div>
+                <div class="resume__container-bottom">
+                    <!-- Seccion derecha -->
+                    <section class="resume__right">
+
+                        <!-- Habilidades de diseño-->
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Competenze Disegno <span class="subtitle__color">Web</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Disegno Banner</h4>
+                                <span class="skills__number">85%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p2"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Disegno Form</h4>
+                                <span class="skills__number">85%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p3"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Disegno Responsive</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p4"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Disegno con Animazioni</h4>
+                                <span class="skills__number">85%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p1"></div>
+                            </div>
+                        </div>
+                        <!-- Habilidades de codigo -->
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Competenze <span class="subtitle__color">Tecnologiche</span></h2>
+                        </header>
+
+                        <!-- <div class="resume__skills">
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">JavaScript</h4>
+                                <span class="skills__number">90%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p5"></div>
+                            </div>
+                            <article class="skills__title">
+                                <h4 class="skills__text">HTML</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p6"></div>
+                            </div>
+                            <article class="skills__title">
+                                <h4 class="skills__text">React</h4>
+                                <span class="skills__number">60%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p7"></div>
+                            </div>
+                            <article class="skills__title">
+                                <h4 class="skills__text">CSS</h4>
+                                <span class="skills__number">40%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p8"></div>
+                            </div>
+
+                        </div> -->
+
+                        <div class="resume__knowledges">
+                            <ul class="knowledges__list">
+                                <li class="knowledges__option">HTML</li>
+                                <li class="knowledges__option">CSS</li>
+                                <li class="knowledges__option">JavaScript</li>
+                                <li class="knowledges__option">React</li>
+                                <li class="knowledges__option">DOM</li>
+                                <li class="knowledges__option">Tailwind</li>
+                                <li class="knowledges__option">npm</li>
+                                <li class="knowledges__option">Bash</li>
+                                <li class="knowledges__option">Git</li>
+                                <li class="knowledges__option">GitHub</li>
+                                <li class="knowledges__option">Python</li>
+                                <li class="knowledges__option">Virtual Studio Code</li>
+                                <li class="knowledges__option">Netbeans</li>
+
+                            </ul>
+                        </div>
+
+                        <!-- Conocimientos -->
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle"> Concetti <span class="subtitle__color">Importanti</span>
+                            </h2>
+                        </header>
+
+                        <div class="resume__knowledges">
+                            <ul class="knowledges__list">
+                                <li class="knowledges__option">Programmazione orientata agli oggetti</li>
+                                <li class="knowledges__option">CSS Grid</li>
+                                <li class="knowledges__option">FlexBox</li>
+                                <li class="knowledges__option">Media Queries</li>
+                                <li class="knowledges__option">Transizioni</li>
+                                <li class="knowledges__option">Trasformazioni</li>
+                                <li class="knowledges__option">Animazioni</li>
+                                <li class="knowledges__option">Pseudoelementi</li>
+                                <li class="knowledges__option">Eventi</li>
+                                <li class="knowledges__option">Gestione degli errori</li>
+                                <li class="knowledges__option">Fetch</li>
+                                <li class="knowledges__option">Componenti</li>
+                                <li class="knowledges__option">JSX</li>
+                                <li class="knowledges__option">UseState</li>
+                                <li class="knowledges__option">UseEffect</li>
+                                <li class="knowledges__option">UseContext</li>
+                                <li class="knowledges__option">React-Router</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Certificados -->
+                    <div class="resume__certificates">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Certificati</h2>
+                        </header>
+                        <section class="certificates__container">
+                            <section class="certificates__certificate">
+
+                                <div class="certificate__logo">
+                                    <a class="certificates__certificate-link" href="./assets/img/credenciales/react.pdf"
+                                        target="_blank">
+                                        <img src="./assets/img/credenciales/react.png" class="certificate__image"
+                                            alt="imagen certificado">
+                                    </a>
+                                </div>
+                                <div class="certificate__content">
+                                    <h4 class="certificate__title">Clase Maestra React</h4>
+                                    <span class="certificate__id">ID verificacion 2147749330</span>
+                                    <span class="certificate__date">01/05/24</span>
+                                </div>
+
+                            </section>
+
+                        <section class="certificates__container">
+                            <section class="certificates__certificate">
+
+                                <div class="certificate__logo">
+                                    <a class="certificates__certificate-link" href="./assets/img/credenciales/herramientas.pdf"
+                                        target="_blank">
+                                        <img src="./assets/img/credenciales/herramientas.png" class="certificate__image"
+                                            alt="imagen certificado">
+                                    </a>
+                                </div>
+                                <div class="certificate__content">
+                                    <h4 class="certificate__title">Herramientas Frontend</h4>
+                                    <span class="certificate__id">ID verificacion 2147606836</span>
+                                    <span class="certificate__date">01/05/24</span>
+                                </div>
+
+                            </section>
+
+                            <section class="certificates__certificate">
+
+                                <div class="certificate__logo">
+                                    <a class="certificates__certificate-link" href="./assets/img/credenciales/DOM.pdf"
+                                        target="_blank">
+                                        <img src="./assets/img/credenciales/DOM.png" class="certificate__image"
+                                            alt="imagen certificado">
+                                    </a>
+                                </div>
+                                <div class="certificate__content">
+                                    <h4 class="certificate__title">Clase Maestra del DOM</h4>
+                                    <span class="certificate__id">ID verificacion 2147570329</span>
+                                    <span class="certificate__date">12/04/24</span>
+                                </div>
+
+                            </section>
+
+                            <section class="certificates__certificate">
+
+                                <div class="certificate__logo">
+                                    <a class="certificates__certificate-link" href="./assets/img/credenciales/js.pdf"
+                                        target="_blank">
+                                        <img src="./assets/img/credenciales/js.png" class="certificate__image"
+                                            alt="imagen certificado">
+                                    </a>
+                                </div>
+                                <div class="certificate__content">
+                                    <h4 class="certificate__title">Clase Maestra JavaScript</h4>
+                                    <span class="certificate__id">ID verificacion 2147570328</span>
+                                    <span class="certificate__date">01/03/24</span>
+                                </div>
+
+                            </section>
+
+                            <section class="certificates__certificate">
+
+                                <div class="certificate__logo">
+                                    <a class="certificates__certificate-link" href="./assets/img/credenciales/css.pdf"
+                                        target="_blank">
+                                        <img src="./assets/img/credenciales/css.png" class="certificate__image"
+                                            alt="imagen certificado">
+                                    </a>
+                                </div>
+                                <div class="certificate__content">
+                                    <h4 class="certificate__title">Clase Maestra CSS</h4>
+                                    <span class="certificate__id">ID verificacion 2147570327</span>
+                                    <span class="certificate__date">17/12/23</span>
+                                </div>
+
+                            </section>
+
+                            <section class="certificates__certificate">
+
+                                <div class="certificate__logo">
+                                    <a class="certificates__certificate-link" href="./assets/img/credenciales/css.pdf"
+                                        target="_blank">
+                                        <img src="./assets/img/credenciales/html.png" class="certificate__image"
+                                            alt="imagen certificado">
+                                    </a>
+                                </div>
+                                <div class="certificate__content">
+                                    <h4 class="certificate__title">Clase Maestra HTML</h4>
+                                    <span class="certificate__id">ID verificacion 2147570402</span>
+                                    <span class="certificate__date">17/12/23</span>
+                                </div>
+
+                            </section>
+
+                            <section class="certificates__certificate">
+
+                                <div class="certificate__logo">
+                                    <a href="https://tiendup.b-cdn.net/business/95/elearning_certificates/86017T1258C1353623H1680037202.pdf"
+                                        target="_blank">
+                                        <img src="./assets/img/credenciales/Python-ad.png" class="certificate__image"
+                                            alt="imagen certificado">
+                                    </a>
+                                </div>
+                                <div class="certificate__content">
+                                    <h4 class="certificate__title">Analisis de datos con Python</h4>
+                                    <span class="certificate__id">ID verificacion</span>
+                                    <span class="certificate__date">28/03/23</span>
+                                </div>
+
+                            </section>
+
+                            <section class="certificates__certificate">
+
+                                <div class="certificate__logo">
+                                    <a href="https://tiendup.b-cdn.net/business/95/elearning_certificates/70880T793C1353623H1678881602.pdf"
+                                        target="_blank">
+                                        <img src="./assets/img/credenciales/py.png" class="certificate__image"
+                                            alt="imagen certificado">
+                                    </a>
+                                </div>
+                                <div class="certificate__content">
+                                    <h4 class="certificate__title">Curso de Python</h4>
+                                    <span class="certificate__id">ID verificacion</span>
+                                    <span class="certificate__date">28/03/23</span>
+                                </div>
+
+                            </section>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

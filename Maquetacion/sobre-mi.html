@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+    <title>Portafolio - Angelo Marangon</title>
+
+    <!-- Estilos e Iconos -->
+    <link rel="stylesheet" href="../assets-proyecto1/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <!-- Fuente -->
+    <link rel="stylesheet" href="./assets/fonts/poppins/poppins.css">
+    <!-- Estilo principal -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Estilos Scroll -->
+    <link rel="stylesheet" href="./assets/css/scroll.css">
+    <!-- Estilos Responsive -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- Script Menu btn -->
+    <script src="./assets/js/menu.js" defer></script>
+
+</head>
+
+<body>
+    <!-- Layout principal -->
+    <div class="layout">
+        <!-- Barra lateral (info usuario) -->
+        <aside class="layout__aside">
+            <section class="aside__userInfo">
+                <!-- info general usuario -->
+                <div class="userInfo__general">
+                    <div class="userInfo__container-image">
+                        <img src="./assets/img/perfil.jpeg" class="userInfo__image"
+                            alt="Foto de perfil del usuario">
+                    </div>
+
+                    <h2 class="userInfo__name">Angelo Marangon</h2>
+                    <h4 class="userInfo__job">Sviluppatore Frontend</h4>
+                </div>
+                <!-- Menu de navegacion -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <!-- icono de casa -->
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a> 
+                        </li>
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link menu__link--active">
+                                <!-- icono de usuario -->
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Su di Me</span>
+                            </a> 
+                        </li>
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                                <!-- icono de graduado -->
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a> 
+                        </li>
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <!-- icono de maleta -->
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a> 
+                        </li>
+                        <!-- <li class="menu__option">
+                            <a href="blog.html" class="menu__link"> -->
+                                <!-- icono de libro -->
+                                <!-- <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a> 
+                        </li> -->
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <!-- icono de sobre -->
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contatto</span>
+                            </a> 
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Frase -->
+                <div class="userInfo__frase">
+                    <p class="userInfo__frase-content">
+                        "La disciplina è l'abitudine di fare la cosa giusta, nel momento giusto, nel modo giusto." <br>Vince Lombardi
+                    </p>
+                </div>
+                <!-- Links a redes sociales -->
+                <div class="userInfo__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="https://github.com/angelomarangon" target="_blank" class="social__link">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://ar.linkedin.com/in/angelomarangon" target="_blank" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://www.instagram.com/angelomarangon_/" target="_blank" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- boton del curriculum -->
+                <div class="userInfo__buttons">
+                    <a href="./assets/cv/CV - Angelo Marangon.pdf" download="CV - Angelo Marangon.pdf" class="userInfo__btn">Scaricare CV</a>
+                </div>
+                <!-- Pie de pagina -->
+                <footer class="userInfo__footer">
+                    &copy; 2024 Angelo Marangon
+                </footer>
+            </section>
+        </aside>
+        <!-- Menu Responsive -->
+        <div id="menu-btn" class="layout__menu-toggle">
+            <i class="fa-solid fa-bars menu-toggle__icon"></i>
+            <i class="fa-solid fa-xmark menu-toggle__icon"></i>
+        </div>
+        <!-- Contenido Principal -->
+        <main class="layout__content">
+            <section class="content__page content__about">
+                <header class="about__header">
+                    <h1 class="about__title">
+                        Su di <span class="title__color">Me</span>
+                    </h1>
+                </header>
+                <!-- Informacion personal -->
+                <section class="about__personalInfo">
+                    <article class="personalInfo__bio">
+                        <p class="personalInfo__description">Sono un appassionato sviluppatore frontend alla ricerca di espandere le mie competenze in un ambiente lavorativo dinamico. Ho una solida base in HTML, CSS e JavaScript, oltre all'esperienza nell'uso di framework come React. Il mio approccio centrato sull'utente e la mia capacità di lavorare in team mi permettono di contribuire efficacemente a progetti collaborativi. Mi considero una persona con una curiosità insaziabile, impegnata nell'apprendimento continuo e entusiasta dell'opportunità di crescita professionale nel campo dello sviluppo frontend.</p>
+                    </article>
+                    <div class="personalInfo__data">
+                        <ul class="personalInfo__list">
+                            <li class="personalInfo__option">
+                                <span class="personalInfo__title">Età</span>
+                                <span class="personalInfo__value">30</span>
+                            </li>
+                            <li class="personalInfo__option">
+                                <span class="personalInfo__title">Paese</span>
+                                <span class="personalInfo__value">Italia</span>
+                            </li>
+                            <li class="personalInfo__option">
+                                <span class="personalInfo__title">Abitazione</span>
+                                <span class="personalInfo__value">Via Sbozzo 2E, Quinto di Treviso</span>
+                            </li>
+                            <li class="personalInfo__option">
+                                <span class="personalInfo__title">E-mail</span>
+                                <span class="personalInfo__value">angelo.marangon1@icloud.com</span>
+                            </li>
+                            <li class="personalInfo__option">
+                                <span class="personalInfo__title">Numero di telefono</span>
+                                <span class="personalInfo__value">+39 351 622 1405</span>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </section>
+                <!-- Servicios -->
+                <section class="about__services">
+                    <header class="services__header">
+                        <h2 class="services__title">
+                            Il mio <span class="title__color">percorso</span>
+                        </h2>
+                    </header>
+
+                    <div class="services__container">
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-computer"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Tecnologia</h3>
+                                <p class="service__description">La curiosità per l'ignoto è sempre stata una componente fondamentale della mia vita; questo impulso mi spinge costantemente a chiedermi "come?" e "perché?" funzionano le cose. Infatti lungo diverse fasi, ho esplorato vari settori come la musica, le matematiche, la fisica e la chimica, trovando un elemento comune tra tutti loro: la tecnologia. Tuttavia, qualche anno fa ho deciso di immergermi nel settore IT, motivato dal desiderio di sviluppare la mia creatività, la possibilità di creare strumenti che semplifichino, risolvano problemi e aumentino la produttività. </p>
+                            </div>
+                        </article>
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-terminal"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Programmazione</h3>
+                                <p class="service__description">
+                                    Il mio avvicinamento alla programmazione è avvenuto durante un periodo della mia vita in cui stavo studiando ingegneria elettronica. È stato lì che ho imparato e lavorato con C++, e successivamente con Arduino, collaborando con un amico nella creazione di un'auto telecomandata. Quest'ultimo mi ha portato a sentire una sensazione di realizzazione che mi ha reso consapevole della moltitudine di strumenti esistenti che possediamo per creare e innovare.</p>
+                            </div>
+                        </article>
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-chalkboard-user"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Formazione</h3>
+                                <p class="service__description">La mia formazione come programmatore ha avuto inizio durante il mio primo anno di ingegneria, dove ho acquisito conoscenze sulla logica della programmazione con C++. Nonostante i diversi impegni lavorativi, ho deciso di rafforzare la mia formazione riguardo Python attraverso un corso intermedio, al fine di rafforzare le mie competenze nella logica di programmazione e l'analisi dei dati. Successivamente, mi sono iscritto ad un instituto tecnico presso il Tecnológico Teclab di Buenos Aires per formarmi finalmente come sviluppatore.
+                                Attualmente, sono a pochi mesi dal completare la tecnica, durante la quale sto seguendo corsi aggiuntivi in parallelo per integrare ciò che ho imparato. Inoltre, poiché la tecnologia è in continua evoluzione, è fondamentale essere in continuo adattamento ad essa.</p>
+                            </div>
+                        </article>
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-code"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h3 class="service__title">Sviluppo</h3>
+                                <p class="service__description">Attualmente, ho deciso di specializzarmi come sviluppatore frontend, il che mi ha fornito un ampio set di strumenti per lo sviluppo di siti web e applicazioni. Ho acquisito esperienza nelle metodologie di lavoro UI/UX come Agile, così come in diverse tecnologie, tra cui HTML, CSS, JavaScript, gestione del DOM, React, Tailwind, npm e GitHub, ecc. Inoltre, ho sviluppato competenze in adattabilità e design responsive per ogni progetto. Partendo dal presupposto che l'utente è al centro dell'attenzione e deve sentirsi comodo e soddisfatto con il design del prodotto, il mio approccio si concentra su soddisfare efficacemente tutte le sue esigenze.</p>
+                            </div>
+                        </article>
+                        
+                        
+                    </div>
+                </section>
+                <!-- Reseñas -->
+                <!-- <section class="about__reviews">
+                    <header class="reviews__header">
+                        <h2 class="reviews__title">
+                            Reseñas
+                        </h2>
+                    </header>
+
+                    <div class="reviews__container">
+                        <article class="reviews__review">
+                            <div class="review__image-container">
+                                <img src="./assets/img/testimonio1.jpg" class="review__image" alt="cara de un cliente">
+                            </div>
+
+                            <div class="review__description">
+                                <p class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, obcaecati. Non
+                                    tempore impedit sint, nam assumenda, similique odit adipisci culpa voluptates,
+                                    minima sed nobis quo odio aperiam corporis ex accusantium.
+                                </p>
+                            </div>
+
+                            <div class="review__author">
+                                <div class="review__author-info">
+                                    <h4 class="review_name">Ana Lopez</h4>
+                                    <h5 class="review__company">Developers S.A</h5>
+                                </div>
+
+                                <div class="review__author-icon">
+                                    <i class="review__icon fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="reviews__review">
+                            <div class="review__image-container">
+                                <img src="./assets/img/testimonio2.jpg" class="review__image" alt="cara de un cliente">
+                            </div>
+
+                            <div class="review__description">
+                                <p class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, obcaecati. Non
+                                    tempore impedit sint, nam assumenda, similique odit adipisci culpa voluptates,
+                                    minima sed nobis quo odio aperiam corporis ex accusantium.
+                                </p>
+                            </div>
+
+                            <div class="review__author">
+                                <div class="review__author-info">
+                                    <h4 class="review_name">Ruben Martinez</h4>
+                                    <h5 class="review__company">Fullstack SRL</h5>
+                                </div>
+
+                                <div class="review__author-icon">
+                                    <i class="review__icon fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section> -->
+                <!-- Clientes -->
+                <!-- <section class="about__clients">
+                    <header class="clients__header">
+                        <h2 class="clients__title">Clientes</h2>
+                    </header>
+
+                    <div class="clients__container">
+                        <article class="clients__item">
+                            <a href="#" class="clients__links">
+                                <img src="./assets/img/cliente-1.png" class="clients__image" alt="logo-cliente">
+                            </a>
+                        </article>
+
+                        <article class="clients__item">
+                            <a href="#" class="clients__links">
+                                <img src="./assets/img/cliente-2.png" class="clients__image" alt="logo-cliente">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__links">
+                                <img src="./assets/img/cliente-3.png" class="clients__image" alt="logo-cliente">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__links">
+                                <img src="./assets/img/cliente-4.png" class="clients__image" alt="logo-cliente">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__links">
+                                <img src="./assets/img/cliente-5.png" class="clients__image" alt="logo-cliente">
+                            </a>
+                        </article>
+                    </div>
+                </section> -->
+                <!-- Precios -->
+                <!-- <section class="about__prices">
+                    <header class="prices__header">
+                        <h2 class="prices__title">Precios</h2>
+                    </header>
+
+                    <div class="prices__container">
+                        <article class="prices__box">
+                            <div class="prices__subtitle">
+                                <span class="prices__text">Normal</span>
+                            </div>
+
+                            <div class="prices__price">
+                                <span class="prices__number">$20</span>
+                                <small class="prices__advice">al mes</small>
+                            </div>
+
+                            <div class="prices__buy">
+                                <a href="#" class="prices__btn">
+                                    Prueba Gratis
+                                </a>
+                            </div>
+
+                            <div class="prices__reward">
+                                Un curso de desarrollo web
+                            </div>
+                            <div class="prices__reward">
+                                Soporte a preguntas y dudas
+                            </div>
+                            <div class="prices__reward">
+                                Certificado de finalizacion
+                            </div>
+                        </article>
+
+                        <article class="prices__box">
+                            <div class="prices__subtitle">
+                                <span class="prices__text">Premium</span>
+                            </div>
+
+                            <div class="prices__price">
+                                <span class="prices__number">$50</span>
+                                <small class="prices__advice">al mes</small>
+                            </div>
+
+                            <div class="prices__buy">
+                                <a href="#" class="prices__btn">
+                                    Prueba Gratis
+                                </a>
+                            </div>
+
+                            <div class="prices__reward">
+                                Cinco cursos de desarrollo web
+                            </div>
+                            <div class="prices__reward">
+                                Soporte a preguntas y dudas prioritario
+                            </div>
+                            <div class="prices__reward">
+                                Certificado de finalizacion
+                            </div>
+                        </article>
+                    </div>
+                </section> -->
+                <!-- Extra -->
+                <!-- <section class="about__extra">
+                    <header class="extra__header">
+                        <h2 class="extra__title">Informacion
+                            <span class="title__color">Extra</span>
+                        </h2>
+                    </header>
+
+                        <div class="extra__container">
+                            <article class="extra__info">
+                                <i class="extra__icon fa-solid fa-heart"></i>
+                                <h4 class="extra__subtitle">Alumnos Contentos</h4>
+                                <span class="extra__quantity">375</span>
+                            </article>
+
+                            <article class="extra__info">
+                                <i class="extra__icon fa-solid fa-clock"></i>
+                                <h4 class="extra__subtitle">Horas de Contenido</h4>
+                                <span class="extra__quantity">300</span>
+                            </article>
+
+                            <article class="extra__info">
+                                <i class="extra__icon fa-solid fa-star"></i>
+                                <h4 class="extra__subtitle">Valoracion</h4>
+                                <span class="extra__quantity">9</span>
+                            </article>
+                        </div>
+                </section> -->
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
