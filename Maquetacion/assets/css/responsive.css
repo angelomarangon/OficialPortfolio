@@ -181,6 +181,7 @@
     .layout__aside--visible{
         margin-right: 0;
         opacity: 1;
+        box-shadow: -2px 0px 10px rgba(0,0,0,.25);
     }
 
 
